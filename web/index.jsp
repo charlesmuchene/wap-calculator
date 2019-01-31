@@ -15,7 +15,6 @@
     <hr>
     <jsp:include page="pages/form.jsp"/>
 </main>
-<jsp:include page="pages/validators.html"/>
 <script src="resources/main.js"></script>
 </body>
 </html>
