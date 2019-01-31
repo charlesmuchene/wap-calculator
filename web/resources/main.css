@@ -1,0 +1,80 @@
+body {
+    padding-top: 10px;
+    font-size: 2em;
+    font-family: sans-serif;
+    background-color: #cccccc10;
+}
+
+header {
+    text-align: center;
+    text-shadow: 4px 3px #e7e7e7;
+    margin: 10px 0;
+}
+
+main {
+    width: 40%;
+    margin: auto;
+    box-shadow: 3px 3px 4px 4px #e7e7e7;
+    padding: 20px 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+}
+
+h5 {
+    margin: 5px 0;
+}
+
+.form-div {
+    justify-items: stretch;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 4fr 1fr 4fr 1fr 4fr;
+}
+
+[type=text] {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+}
+
+button {
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px 2px #e7e7e7;
+}
+
+[type=submit] {
+    grid-column-start: 5;
+    background-color: #4CAF50;
+}
+
+.operator {
+    text-align: center;
+    align-self: center;
+}
+
+#clear-form {
+    background-color: #555555;
+    grid-column-start: 3;
+}
+
+#calculators-divider {
+    margin-top: 30px;
+    border-top: 1px groove #4CAF50;
+}
+
+#instructions-paragraph {
+    font-size: 14px;
+}
+
+input:read-only {
+    color: green;
+    font-weight: bold;
+}
